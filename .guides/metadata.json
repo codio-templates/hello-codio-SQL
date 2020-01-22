@@ -2,7 +2,7 @@
  "sections": [
   {
    "id": "5eb6898c-82ee-c13d-2329-656550ae65c9",
-   "title": "Java - Sample Lesson Page",
+   "title": "SQL - Sample Lesson Page",
    "files": [
     {
      "path": "#tabs",
@@ -17,7 +17,7 @@
    "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Java---Sample-Lesson-Page-5eb6.md",
+   "content-file": ".guides/content/SQL---Sample-Lesson-Page-5eb6.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
