@@ -10,17 +10,13 @@ If you make a mistake while editing the EPCars database or just want to reset th
 |||
 
 
-### Introducing the `UPDATE` SQL keyword
+## Introducing the `UPDATE` SQL keyword
 
-The `UPDATE` SQL keyword lets us __update the records from existing database tables__.
+The `UPDATE` SQL keyword lets us update the records from existing database tables.
 
 Let's inspect the data from the `trips` table.
 
-First, do a `USE EPDriver;` to _use_ the appropiate database and then:
-
-```
-mysql> SELECT * FROM trips;
-```
+First, do a `USE EPDriver;` to use the appropiate database and then `SELECT * FROM trips;`
 
 You should see this output:
 
@@ -42,9 +38,6 @@ You should see this output:
 10 rows in set (0.00 sec)
 ```
 
-We'll keep an eye on the `id`'s where the user hasn't finished the trip yet. 
-Can you guess which `id`'s these are?
-
 ## Updating Data
 
 Let's take a closer look at the `trips` table `id`'s where the user hasn't finished the trip yet:
@@ -62,16 +55,7 @@ Execute the `SELECT * FROM trips WHERE trip_datetime_end IS NULL;` statement to 
 3 rows in set (0.00 sec)
 ```
 
-|||info
-### Selecting `NULL` values:
-
-We learned that the `WHERE` clause let us create conditional statements using _SQL query operators_. 
-
-However, __when looking specifically for `NULL` values__, the `SELECT column_names FROM WHERE column_name IS NULL` statement  applies. 
-
-In conclusion, the `IS` operator is designed specifically for matching `NULL` values because they are not strings nor other data types but `NULL`.
-
-|||
+<details><summary>**Selecting `NULL` values**</summary>We learned that the `WHERE` clause let us create conditional statements using _SQL query operators_. <br><br>However, __when looking specifically for `NULL` values__, the `SELECT column_names FROM WHERE column_name IS NULL` statement  applies. <br><br>In conclusion, the `IS` operator is designed specifically for matching `NULL` values because they are not strings nor other data types but `NULL`.</details>
 
 We know that the `trips` table `id`'s that are missing the `trip_datetime_end` and `total_fare` values are `4`, `7` and `9`.
 
@@ -106,8 +90,6 @@ The `WHERE` clause specifies the records that should be updated.
 __By omitting the `WHERE` clause, all records will be updated.__
 |||
 
-
-<details><summary>**SQL Statements Reminder**</summary><ul><li>`SHOW DATABASES;`</li><li>`USE name;`</li><li>`SHOW TABLES;`</li><li>`source file-name.sql`</li><li>`SELECT * FROM table WHERE column = 'value';`</li></ul></details>
 
 
 {Check It!|assessment}(parsons-puzzle-2650837085)

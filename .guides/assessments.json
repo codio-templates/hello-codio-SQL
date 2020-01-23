@@ -5,11 +5,11 @@
   "source": {
    "name": "Demo Question",
    "showName": false,
-   "instructions": "## Reading Question\nRearrange the code blocks below to create a loop that iterates over an array and prints each element of the array. \n**Note:** some of the code blocks will not be used.",
-   "initial": "String[] animals = {\"cat\", \"dog\", \"fish\", \"rabbit\"};\nfor(int i = 0; i < animals.length; i++) {\n    System.out.println(\"Animal #\" + i + \" is a \" + animals[i]);\n}\nfor(int i = 1; i < animals.length; i++) { #distractor\nfor(int i = 0; i <= animals.length; i++) { #distractor",
+   "instructions": "## Reading Question\nRearrange the code blocks below to update **all** the records in the table.\n\nHint: You won't use all of the blocks.",
+   "initial": "UPDATE trips\nSET trip_total_fare = 0.00;\nSET trip_total_fare = 0.00 #distractor\nWHERE id = 7; #distractor\nWHERE id = 7 #distractor\n",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
    "grader": "1",
-   "guidance": "The first line needs to be the array declaration. You cannot iterate over an array that does not exist. \n\nThere are three possible choices for the loop. Arrays start at index 0 and go until array.length - 1. That means the correct loop declaration has `int i = 0; i < animals.length;` in it.\n\nDon't forget to indent the print statement and close the loop curly brace.\n\n```java\nString[] animals = {\"cat\", \"dog\", \"fish\", \"rabbit\"};\nfor(int i = 0; i < animals.length; i++) {\n    System.out.println(\"Animal #\" + i + \" is a \" + animals[i]);\n}\n```",
+   "guidance": "Because you are updating *all* the records in the table, you do not need the `WHERE` command.\n\nYour query must end with a semi-colon.\n\nThe correct solution is:\n```\nUPDATE trips\nSET trip_total_fare = 0.00;\n```",
    "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": true,
@@ -26,9 +26,9 @@
     ],
     "opened": [
      {
-      "type": "file",
+      "type": "terminal",
       "panelNumber": 0,
-      "content": "code/Demo.java"
+      "content": "mysql;"
      }
     ]
    },
@@ -42,26 +42,26 @@
   "source": {
    "name": "Practice MCQ",
    "showName": false,
-   "instructions": "## Multiple Choice Question\nHow did the Java programming language get its name?",
+   "instructions": "## Multiple Choice Question\nHow did the mySQL programming language get its name?",
    "multipleResponse": false,
    "answers": [
     {
      "_id": "448c7d4d-72d0-9b3e-3589-670669d72e51",
      "correct": false,
-     "answer": "the Indonesian island the creator was from"
+     "answer": "the creator wanted to imply ownership (mine)"
     },
     {
      "_id": "d84086ba-a7d2-a56f-5797-d25d50b7c06f",
      "correct": true,
-     "answer": "the amount of coffee consumed while developing the language"
+     "answer": "the creator named it after his daughter"
     },
     {
      "_id": "7a53cab5-f47f-40cb-d68d-86470ef77d54",
      "correct": false,
-     "answer": "the JavaScript language it was inspired by "
+     "answer": "the creator named it after a dolphin at his local aquarium "
     }
    ],
-   "guidance": "Java was named by its creator, James Gosling, of Sun Microsystems for the amount of coffee consumed while developing the language.\n",
+   "guidance": "MySQL is a combination of \"My\", the name of co-founder Michael Widenius's daughter and \"SQL\", the abbreviation for Structured Query Language\n",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -87,8 +87,8 @@
    "name": "Fill in the Blank Demo Question",
    "showName": false,
    "instructions": "## Fill in the Blank\nFill in the blanks below.",
-   "text": "True or False: Java is a compiled language. <<<True>>>\nTrue or False: You do not use semi-colons at the end of each line of code in Java. <<<False>>>",
-   "guidance": "Java is a compiled language.\nJava does use semi-colons at the end of each line of code.",
+   "text": "True or False: mySQL is a compiled language. <<<False>>>\nTrue or False: You use semi-colons at the end of each query in mySQL. <<<True>>>",
+   "guidance": "mySQL is a a relational database management system.\nmySQL use semi-colons at the end of each query.",
    "showGuidanceAfterResponse": true,
    "showExpectedAnswer": true,
    "points": 1,
@@ -107,13 +107,13 @@
    "learningObjectives": "",
    "tokens": {
     "blank": [
-     "True",
-     "False"
+     "False",
+     "True"
     ],
     "text": [
-     "True or False: Java is a compiled language. ",
+     "True or False: mySQL is a compiled language. ",
      0,
-     "\nTrue or False: You do not use semi-colons at the end of each line of code in Java. ",
+     "\nTrue or False: You use semi-colons at the end of each query in mySQL. ",
      0
     ]
    }
@@ -128,7 +128,7 @@
    "instructions": "## Parson's Problem\nRearrange the code blocks below into the proper order. **Note**, not all of the code blocks will be used.",
    "initial": "The first code block\nThe second code block\nThe third code block\nI am not correct #distractor\nI am not correct #distractor",
    "options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
-   "grader": "",
+   "grader": "1",
    "guidance": "The first code block\nThe second code block\nThe third code block",
    "showGuidanceAfterResponse": true,
    "points": 1,

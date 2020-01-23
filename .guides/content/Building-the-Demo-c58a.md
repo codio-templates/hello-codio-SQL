@@ -31,7 +31,7 @@ In this example, to prevent the user from having to type it, we pre-populated th
 ### SQL Databases and Tables
 You can easily template querying environments with pre-populated tables using Codio's "Stack" feature. This means as you write the assignment, you can setup the data as you normally would, and simply mark "Stack Modified" when you publish since the data lives outside of the workspace directory.
 
-Alternatively, you could prepare .sql files that create data (see files in `.guides/sampledata`) and have a script run the file upon box startup (see `.guides/lib/startup.sh`). This allows you to have a simple set of scripts with only one stack configuration if you needed diverse datasets across assignments.
+Alternatively, you could prepare .sql files that create data (see files in `.guides/sampledata`) and have a script run the file upon box startup (see `.guides/startup.sh`). This allows you to have a simple set of scripts with only one stack configuration if you needed diverse datasets across assignments. To cause the script to run at startup, go to `Tools >Install Software` and click the download/install button next to `Autostart Support`. This will cause Codio to automatically look for startup.sh in the workspace folder and/or .guides. Also note that you should **delete** the data before stack creation so that students get fresh data from the script when they start or re-start the assignment (since it only installs if the database is missing).
 
 ### Markdown
 Guides are authored with [markdown](https://codio.com/docs/content/authoring/page-edit/edit/), but you can use any HTML to author content. The drop-down text is an example of the `<details>` and `<summary>` tags.
