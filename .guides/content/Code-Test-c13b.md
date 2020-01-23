@@ -1,7 +1,25 @@
 ----------
 
 ## Code Test
+{Check It!|assessment}(test-1780171264)
 
+|||guidance
+
+Correct answers:
+`USE EPDriver;`
+
+Single line statement:
+
+`UPDATE trips SET trip_total_fare = 25.00 WHERE trip_datetime_end IS NULL;`
+
+Multi-line statement:
+```
+mysql> UPDATE trips 
+    -> SET trip_total_fare = 25.00 
+    -> WHERE trip_datetime_end IS NULL;
+```
+
+|||
 
 
 ## Setting up mySQL Code Tests
