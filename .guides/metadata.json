@@ -9,7 +9,7 @@
      "action": "close"
     },
     {
-     "path": "code/Demo.java",
+     "path": "#terminal: mysql;",
      "panel": 0,
      "action": "open"
     }

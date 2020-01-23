@@ -23,6 +23,16 @@ The next step is to load this file into a panel of your layout. Click on the gea
 
 This file will open with the guide. The file will remain opened until the student closes the tab. This is why it is a good idea to tell Codio to close any previously opened tabs when selecting the layout.
 
+### Terminal/Command Line
+You can open a terminal for students automatically, and even pre-populate what commands you would like to be run upon open.
+
+In this example, to prevent the user from having to type it, we pre-populated the `mysql` command so they start in the querying environment.
+
+### SQL Databases and Tables
+You can easily template querying environments with pre-populated tables using Codio's "Stack" feature. This means as you write the assignment, you can setup the data as you normally would, and simply mark "Stack Modified" when you publish since the data lives outside of the workspace directory.
+
+Alternatively, you could prepare .sql files that create data (see files in `.guides/sampledata`) and have a script run the file upon box startup (see `.guides/lib/startup.sh`). This allows you to have a simple set of scripts with only one stack configuration if you needed diverse datasets across assignments.
+
 ### Markdown
 Guides are authored with [markdown](https://codio.com/docs/content/authoring/page-edit/edit/), but you can use any HTML to author content. The drop-down text is an example of the `<details>` and `<summary>` tags.
 
@@ -33,12 +43,6 @@ You will notice a folder called `.guides` in the directory tree. All of the info
 
 Add the image to the guide using markdown syntax or by dragging the image file from the directory tree onto the guide page where you want to insert the image.
 
-### Try It Button
+### Button
 
-Codio has syntax to add a [custom button](https://codio.com/docs/content/authoring/page-edit/buttons/) to your guide. On the previous page, the `TRY IT` button runs the command `sh .guides/bg.sh javac code/Demo.java java -cp code/ Demo` and prints the output to the guide. The `bg.sh` script simply allows us to both compile (`javac code/Demo.java`) and run (`java -cp code/ Demo`) Java files with a single command. The terminal can always be added to a panel if you would rather have students interact with the command line.
-
-### Code Visualizer
-Codio has integrate the [Python Tutor](http://pythontutor.com/) into its platform. It works with a variety of languages (despite its name). To add a code visualizer to your guide, use the following syntax `[Code Visualizer](open_tutor your_file.py)`.
-
-### Code Highlighting
-You can create links that [highlight](https://codio.com/docs/content/authoring/page-edit/inline/) sections of code. It is important to note that opening a file with highlighting will retain the highlighting. Adding another like to open the same file without highlighting will "remove" the highlighting.
+Codio has syntax to add a [custom button](https://codio.com/docs/content/authoring/page-edit/buttons/) to your guide. On the previous page, the `Reset EPDriver Database` button runs the command `node .guides/sqltests/fw-sql-reset-epdriver.js`. You can check out the script via the file tree once you are in Edit Mode (which you reach by navigating to "Tools > Guide > Edit" on the top tool bar).

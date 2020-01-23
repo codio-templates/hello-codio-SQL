@@ -1,12 +1,11 @@
 ----------
 
-## Standard Code Test
+## Code Test
 
-Write a program that takes an integer from the user. Return the number multiplied by three. If the user enters a non-integer data type, return the following message:
 
-`Please enter an integer`
 
-[Code Visualizer](open_tutor code/Test.java)
-{Try it | terminal}(sh .guides/bg.sh javac code/Test.java java -cp code/ Test )
+## Setting up mySQL Code Tests
 
-{Check It!|assessment}(code-output-compare-4266318069)
+This example used a short JavaScript file to specify the SQL commands that should be able to run without error if the student did the task correctly.
+
+This file uses a more generic testing script `fw-sqltests.js` (which you are free to copy and use for your assignments).
