@@ -4,10 +4,13 @@
 
 Instruction through Codio is built around the guides feature. This is a brief description on how the demo on the previous page was built. Please see the [documentation](https://codio.com/docs/content/authoring/) for more information about content authoring with guides.
 
-Take a look "under the hood" of this demo by navigating to "Tools > Guide > Edit" on the top tool bar.
+||| info
+### To try this out
+You’ll need to be in Edit Mode. From the top tool bar menu, select  **Tools->Guide->Edit**.
+
 
 ![.guides/img/editGuide](.guides/img/editGuide.png)
-
+|||
 
 ### Page Layout
 Each page in the guide can have its own layout. You can select how many panels you want, and what information goes in each panel. The most common layout is a two panels without the tree. The guide is in one panel and the code editor is in the other. Click the gear in the top-right corner of Codio. You can select the layout from here. The default layout is copy the previous page, and Codio does not close any open tabs.
@@ -31,7 +34,7 @@ In this example, to prevent the user from having to type it, we pre-populated th
 ### SQL Databases and Tables
 You can easily template querying environments with pre-populated tables using Codio's "Stack" feature. This means as you write the assignment, you can setup the data as you normally would, and simply mark "Stack Modified" when you publish since the data lives outside of the workspace directory.
 
-Alternatively, you could prepare .sql files that create data (see files in `.guides/sampledata`) and have a script run the file upon box startup (see `.guides/startup.sh`). This allows you to have a simple set of scripts with only one stack configuration if you needed diverse datasets across assignments. To cause the script to run at startup, go to `Tools >Install Software` and click the download/install button next to `Autostart Support`. This will cause Codio to automatically look for startup.sh in the workspace folder and/or .guides. Also note that you should **delete** the data before stack creation so that students get fresh data from the script when they start or re-start the assignment (since it only installs if the database is missing).
+Alternatively, you could prepare .sql files that create data (see files in `.guides/sampledata`) and have a script run the file upon box startup (see `.guides/startup.sh`). If you don't see the File Tree, select **View->File Tree**. This allows you to have a simple set of scripts with only one stack configuration if you needed diverse datasets across assignments. To cause the script to run at startup, go to `Tools >Install Software` and click the download/install button next to `Autostart Support`. This will cause Codio to automatically look for startup.sh in the workspace folder and/or .guides. Also note that you should **delete** the data before stack creation so that students get fresh data from the script when they start or re-start the assignment (since it only installs if the database is missing).
 
 ### Markdown
 Guides are authored with [markdown](https://codio.com/docs/content/authoring/page-edit/edit/), but you can use any HTML to author content. The drop-down text is an example of the `<details>` and `<summary>` tags.

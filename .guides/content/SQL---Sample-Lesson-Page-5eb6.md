@@ -16,7 +16,7 @@ The `UPDATE` SQL keyword lets us update the records from existing database table
 
 Let's inspect the data from the `trips` table.
 
-First, do a `USE EPDriver;` to use the appropiate database and then `SELECT * FROM trips;`
+At the `mysql>` prompt in the Terminal window, type `USE EPDriver;` to use the appropriate database and then type `SELECT * FROM trips;`
 
 You should see this output:
 
@@ -42,7 +42,7 @@ You should see this output:
 
 Let's take a closer look at the `trips` table `id`'s where the user hasn't finished the trip yet:
 
-Execute the `SELECT * FROM trips WHERE trip_datetime_end IS NULL;` statement to accomplish this:
+Type the `SELECT * FROM trips WHERE trip_datetime_end IS NULL;` statement to accomplish this:
 
 ```
 +----+---------------------+---------------------+-----------------+
@@ -59,7 +59,7 @@ Execute the `SELECT * FROM trips WHERE trip_datetime_end IS NULL;` statement to 
 
 We know that the `trips` table `id`'s that are missing the `trip_datetime_end` and `total_fare` values are `4`, `7` and `9`.
 
-In the `mysql>` prompt, execute an `UPDATE` SQL statement to mark the trip `7` as finished with a _datetime_ format. This time, let's do a __multi-line query__ (press enter after each line and end the statement with a semicolon):
+At the `mysql>` prompt, execute the `UPDATE` SQL statement below to mark the trip `7` as finished with a _datetime_ format. This time, it is a __multi-line query__ (press enter after each line and end the statement with a semicolon):
 
 ```
 mysql> UPDATE trips 
