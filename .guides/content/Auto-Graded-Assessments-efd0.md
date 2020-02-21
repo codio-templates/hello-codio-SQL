@@ -1,7 +1,7 @@
 ----------
 
 ## Auto-Graded Assessments
-Here are some quick examples of the different types of auto-graded assessments available through Codio. For a more detailed set of examples, take a look at the [Demo Guides and Assessments](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11) project. To add an assessment, from the library or one you created yourself, click the chess piece icon at the top.
+Here are some quick examples of the different types of auto-graded assessments available through Codio. For a more detailed set of examples, take a look at the [Demo Guides and Assessments](https://codio.com/home/starter-packs/cc68d38b-b0ea-4825-9814-46a3594c2b11) project. To add an assessment, from the library or one you created yourself, click the chess piece icon at the top. If you do not see the icon, select **Tools->Guide->Edit** to launch the Guide Editor.
 
 ![Assessments](.guides/img/assessments.png)
 
