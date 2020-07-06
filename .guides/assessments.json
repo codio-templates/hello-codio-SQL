@@ -219,7 +219,7 @@
    "name": "Code Test",
    "showName": false,
    "instructions": "Using the `EPDriver` database, update the `trip_total_fare` column of the `trips` table with a value of 25.00 where the `trip_datetime_end` is `NULL`\n\nPress the Check It! button when you are done.",
-   "command": "node .guides/sqltests/sql-3-1.js",
+   "command": "node --no-warnings .guides/sqltests/sql-3-1.js",
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 40,
    "guidance": "",
@@ -238,14 +238,9 @@
     ],
     "opened": [
      {
-      "type": "file",
-      "panelNumber": 0,
-      "content": "code/Test.java"
-     },
-     {
       "type": "terminal",
-      "panelNumber": 1,
-      "content": ""
+      "panelNumber": 0,
+      "content": "mysql"
      }
     ]
    },

@@ -37,7 +37,7 @@ You can easily template querying environments with pre-populated tables using Co
 Alternatively, you could prepare .sql files that create data (see files in `.guides/sampledata`) and have a script run the file upon box startup (see `.guides/startup.sh`). If you don't see the File Tree, select **View->File Tree**. This allows you to have a simple set of scripts with only one stack configuration if you needed diverse datasets across assignments. To cause the script to run at startup, go to `Tools >Install Software` and click the download/install button next to `Autostart Support`. This will cause Codio to automatically look for startup.sh in the workspace folder and/or .guides. Also note that you should **delete** the data before stack creation so that students get fresh data from the script when they start or re-start the assignment (since it only installs if the database is missing).
 
 ### Markdown
-Guides are authored with [markdown](https://codio.com/docs/content/authoring/page-edit/edit/), but you can use any HTML to author content. The drop-down text is an example of the `<details>` and `<summary>` tags.
+Guides are authored with [markdown](https://docs.codio.com/courses/authoring/#markdown-content-editing), but you can use any HTML to author content. The drop-down text is an example of the `<details>` and `<summary>` tags.
 
 ### Images
 You will notice a folder called `.guides` in the directory tree. All of the information in this folder is hidden from students. There is a subfolder called `img` where you can upload any images you want to appear in the guide. Right-click on the `img` folder and select `Upload...`.
@@ -48,4 +48,4 @@ Add the image to the guide using markdown syntax or by dragging the image file f
 
 ### Button
 
-Codio has syntax to add a [custom button](https://codio.com/docs/content/authoring/page-edit/buttons/) to your guide. On the previous page, the `Reset EPDriver Database` button runs the command `node .guides/sqltests/fw-sql-reset-epdriver.js`. You can check out the script via the file tree once you are in Edit Mode (which you reach by navigating to "Tools > Guide > Edit" on the top tool bar).
+Codio has syntax to add a [custom button](https://docs.codio.com/courses/authoring/#custom-buttons) to your guide. On the previous page, the `Reset EPDriver Database` button runs the command `node .guides/sqltests/fw-sql-reset-epdriver.js`. You can check out the script via the file tree once you are in Edit Mode (which you reach by navigating to "Tools > Guide > Edit" on the top tool bar).

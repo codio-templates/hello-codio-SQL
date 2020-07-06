@@ -5,7 +5,7 @@
 ### Reset database
 If you make a mistake while editing the EPCars database or just want to reset the database back to its original state, click the “Reset EPDriver Database” button below.
 
-{Reset EPDriver Database}(node .guides/sqltests/fw-sql-reset-epdriver.js) 
+{Reset EPDriver Database}(node --no-warnings .guides/sqltests/fw-sql-reset-epdriver.js) 
 
 |||
 
@@ -16,7 +16,9 @@ The `UPDATE` SQL keyword lets us update the records from existing database table
 
 Let's inspect the data from the `trips` table.
 
-At the `mysql>` prompt in the Terminal window, type `USE EPDriver;` to use the appropriate database and then type `SELECT * FROM trips;`
+At the `mysql>` prompt in the Terminal window type:
+1. `USE EPDriver;` to use the appropriate database
+2. `SELECT * FROM trips;`
 
 You should see this output:
 
