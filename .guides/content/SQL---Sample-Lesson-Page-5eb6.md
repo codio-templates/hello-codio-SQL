@@ -57,7 +57,9 @@ Type the `SELECT * FROM trips WHERE trip_datetime_end IS NULL;` statement to acc
 3 rows in set (0.00 sec)
 ```
 
-<details><summary>**Selecting `NULL` values**</summary>We learned that the `WHERE` clause let us create conditional statements using _SQL query operators_. <br><br>However, __when looking specifically for `NULL` values__, the `SELECT column_names FROM WHERE column_name IS NULL` statement  applies. <br><br>In conclusion, the `IS` operator is designed specifically for matching `NULL` values because they are not strings nor other data types but `NULL`.</details>
+***
+<details><summary>**Selecting `NULL` values**</summary>We learned that the `WHERE` clause let us create conditional statements using _SQL query operators_. <br><br>However, __when looking specifically for `NULL` values__, the `SELECT column_names FROM trips WHERE column_name IS NULL` statement  applies. <br><br>In conclusion, the `IS` operator is designed specifically for matching `NULL` values because they are not strings nor other data types but `NULL`.</details>
+***
 
 We know that the `trips` table `id`'s that are missing the `trip_datetime_end` and `total_fare` values are `4`, `7` and `9`.
 

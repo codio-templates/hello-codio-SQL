@@ -222,8 +222,8 @@
    "command": "node --no-warnings .guides/sqltests/sql-3-1.js",
    "arePartialPointsAllowed": false,
    "timeoutSeconds": 40,
-   "guidance": "",
-   "showGuidanceAfterResponse": false,
+   "guidance": "Correct answers:\n`USE EPDriver;`\n\nSingle line statement:\n\n`UPDATE trips SET trip_total_fare = 25.00 WHERE trip_datetime_end IS NULL;`\n\nMulti-line statement:\n```\nmysql> UPDATE trips \n    -> SET trip_total_fare = 25.00 \n    -> WHERE trip_datetime_end IS NULL;\n```",
+   "showGuidanceAfterResponse": true,
    "points": 1,
    "oneTimeTest": false,
    "metadata": {
