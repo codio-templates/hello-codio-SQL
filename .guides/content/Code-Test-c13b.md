@@ -3,7 +3,11 @@
 ## Code Test
 {Check It!|assessment}(test-1780171264)
 
-|||guidance
+<table><tbody ><tr><td><details><summary>
+	<strong>Solution</strong>
+</summary>
+
+Here are two possible solutions to the problem. You can copy/paste it into the IDE if you would like.
 
 Correct answers:
 `USE EPDriver;`
@@ -18,9 +22,9 @@ mysql> UPDATE trips
     -> SET trip_total_fare = 25.00 
     -> WHERE trip_datetime_end IS NULL;
 ```
-
-|||
-
+	
+</details></td></tr></tbody>
+</table>
 
 ## Setting up mySQL Code Tests
 
