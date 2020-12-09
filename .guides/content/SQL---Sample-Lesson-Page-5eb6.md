@@ -58,7 +58,7 @@ Type the `SELECT * FROM trips WHERE trip_datetime_end IS NULL;` statement to acc
 ```
 
 ***
-<details><summary>**Selecting `NULL` values**</summary>We learned that the `WHERE` clause let us create conditional statements using _SQL query operators_. <br><br>However, __when looking specifically for `NULL` values__, the `SELECT column_names FROM trips WHERE column_name IS NULL` statement  applies. <br><br>In conclusion, the `IS` operator is designed specifically for matching `NULL` values because they are not strings nor other data types but `NULL`.</details>
+<details><summary><b>Selecting <code>NULL</code> values</b></summary>We learned that the <code>WHERE</code> clause let us create conditional statements using _SQL query operators_. <br><br>However, __when looking specifically for <code>NULL</code> values__, the <code>SELECT column_names FROM trips WHERE column_name IS NULL</code> statement  applies. <br><br>In conclusion, the <code>IS</code> operator is designed specifically for matching <code>NULL</code> values because they are not strings nor other data types but <code>NULL</code>.</details>
 ***
 
 We know that the `trips` table `id`'s that are missing the `trip_datetime_end` and `total_fare` values are `4`, `7` and `9`.
