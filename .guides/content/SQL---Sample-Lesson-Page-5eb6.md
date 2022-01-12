@@ -29,7 +29,7 @@ Click the **Try It** button below to run your file with mysql.
 
 You should see this output:
 
-```
+```markdown
 +----+---------------------+---------------------+-----------------+
 | id | trip_datetime_start | trip_datetime_end   | trip_total_fare |
 +----+---------------------+---------------------+-----------------+
@@ -55,7 +55,7 @@ Replace the `SELECT` statement in the code window with this `SELECT * FROM trips
 
 {Try it  | terminal}(mysql EPDriver < /home/codio/workspace/sample.sql --table)
 
-```
+```markdown
 +----+---------------------+---------------------+-----------------+
 | id | trip_datetime_start | trip_datetime_end   | trip_total_fare |
 +----+---------------------+---------------------+-----------------+
@@ -91,7 +91,7 @@ SELECT * FROM trips;
 
 And you should see this:
 
-```
+```markdown
 +----+---------------------+---------------------+-----------------+
 | id | trip_datetime_start | trip_datetime_end   | trip_total_fare |
 +----+---------------------+---------------------+-----------------+
