@@ -9,18 +9,24 @@
      "action": "close"
     },
     {
-     "path": "#terminal: mysql;",
+     "path": "#terminal: clear;",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "sample.sql",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/SQL---Sample-Lesson-Page-5eb6.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -39,6 +45,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -57,6 +64,7 @@
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   },
   {
@@ -68,18 +76,24 @@
      "action": "close"
     },
     {
-     "path": "#terminal: mysql",
+     "path": "#terminal: clear;",
+     "panel": 1,
+     "action": "open"
+    },
+    {
+     "path": "codetest.sql",
      "panel": 0,
      "action": "open"
     }
    ],
-   "layout": "2-panels",
+   "layout": "3-cell",
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Code-Test-c13b.md",
    "chapter": false,
    "reset": [],
    "teacherOnly": false,
+   "closeTerminalSession": false,
    "learningObjectives": ""
   }
  ],

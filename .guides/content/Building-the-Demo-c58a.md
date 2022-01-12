@@ -48,4 +48,4 @@ Add the image to the guide using markdown syntax or by dragging the image file f
 
 ### Button
 
-Codio has syntax to add a [custom button](https://docs.codio.com/courses/authoring/#custom-buttons) to your guide. On the previous page, the `Reset EPDriver Database` button runs the command `node .guides/sqltests/fw-sql-reset-epdriver.js`. You can check out the script via the file tree once you are in Edit Mode (which you reach by navigating to "Tools > Guide > Edit" on the top tool bar).
+Codio has syntax to add a [custom button](https://docs.codio.com/courses/authoring/#custom-buttons) to your guide. On the previous page, the `Reset EPDriver Database` button runs the command `sh .guides/restart.sh`. You can check out the script via the file tree once you are in Edit Mode (which you reach by navigating to "Tools > Guide > Edit" on the top tool bar).
