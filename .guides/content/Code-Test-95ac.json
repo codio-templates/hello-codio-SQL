@@ -1,0 +1,29 @@
+{
+	"chapter": false,
+	"closeTerminalSession": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#terminal: clear;"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "codetest.sql"
+		}
+	],
+	"id": "95acdc7c-260e-5c9b-a658-5b505ee50e29",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Code Test",
+	"type": "page"
+}

@@ -1,0 +1,19 @@
+{
+	"chapter": false,
+	"closeTerminalSession": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		}
+	],
+	"id": "69dadade-53e5-7d8c-13f3-92a14ce6c556",
+	"layout": "1-panel",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Building the Demo",
+	"type": "page"
+}

@@ -1,0 +1,60 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "python .guides/scripts/helper_mysql.py --db_host localhost --db_user root --db_pass codio --db_name EPDriver",
+		"guidance": "",
+		"instructions": "Click the **Check it** button to submit your code to the auto-grader.",
+		"learningObjectives": "",
+		"maxAttemptsCount": 0,
+		"metadata": {
+			"files": [
+				"codetest.sql"
+			],
+			"opened": [
+				{
+					"content": "codetest.sql",
+					"panelNumber": 0,
+					"type": "file"
+				},
+				{
+					"content": "clear;",
+					"panelNumber": 1,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			]
+		},
+		"name": "odbcquery",
+		"options": {
+			"ignoreCase": true,
+			"ignoreNewline": true,
+			"ignoreWhitespaces": true,
+			"matchSubstring": false,
+			"timeout": 30
+		},
+		"points": 20,
+		"preExecuteCommand": "",
+		"sequence": [
+			{
+				"arguments": "",
+				"feedback": "",
+				"input": "SELECT * FROM trips;",
+				"output": "id,trip_datetime_start,trip_datetime_end,trip_total_fare\n1,2015-09-15 03:20:59,2015-09-15 03:54:08,79.4\n2,2015-09-15 20:44:17,2015-09-15 21:18:58,91.79\n3,2015-09-15 04:01:04,2015-09-15 04:20:18,17.67\n4,2015-09-15 22:56:33,,25.0\n5,2015-09-15 21:12:33,2015-09-15 22:00:00,92.33\n6,2015-09-15 07:14:59,2015-09-15 08:24:19,85.38\n7,2015-09-15 15:48:41,,25.0\n8,2015-09-15 09:40:55,2015-09-15 10:05:32,43.73\n9,2015-09-15 10:00:08,,25.0\n10,2015-09-15 14:57:24,2015-09-15 15:11:26,4.5\n",
+				"showFeedback": false
+			}
+		],
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"showName": false
+	},
+	"taskId": "code-output-compare-2478681867",
+	"type": "code-output-compare"
+}

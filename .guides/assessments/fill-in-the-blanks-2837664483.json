@@ -1,0 +1,41 @@
+{
+	"source": {
+		"bloomsObjectiveLevel": "",
+		"guidance": "mySQL is a a relational database management system.\nmySQL use semi-colons at the end of each query.",
+		"instructions": "## Fill in the Blank\nFill in the blanks below.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Fill in the Blanks"
+				}
+			]
+		},
+		"name": "Fill in the Blank Demo Question",
+		"points": 1,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false,
+		"showValues": false,
+		"text": "True or False: mySQL is a compiled language. \u003c\u003c\u003cFalse\u003e\u003e\u003e\nTrue or False: You use semi-colons at the end of each query in mySQL. \u003c\u003c\u003cTrue\u003e\u003e\u003e",
+		"tokens": {
+			"blank": [
+				"False",
+				"True"
+			],
+			"text": [
+				"True or False: mySQL is a compiled language. ",
+				0,
+				"\nTrue or False: You use semi-colons at the end of each query in mySQL. ",
+				0
+			]
+		}
+	},
+	"taskId": "fill-in-the-blanks-2837664483",
+	"type": "fill-in-the-blanks"
+}

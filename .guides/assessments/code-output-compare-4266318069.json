@@ -1,0 +1,67 @@
+{
+	"source": {
+		"bloomsObjectiveLevel": "",
+		"command": "java -cp code/ Test",
+		"guidance": "One way to solve this programming assignment is:\n\n```java\n    Scanner input = new Scanner(System.in);\n    \n    if(input.hasNextInt()) {\n      int num = input.nextInt();\n      System.out.print(num*3);\n    }\n    else { System.out.print(\"Please enter an integer\"); }\n```",
+		"instructions": "When you have finished this assignment, click the Submit button below.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [
+				"code/Test.java",
+				"code/code_test.py"
+			],
+			"opened": [
+				{
+					"content": "code/Test.java",
+					"panelNumber": 0,
+					"type": "file"
+				},
+				{
+					"content": "",
+					"panelNumber": 1,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			]
+		},
+		"name": "Standard Code Test",
+		"oneTimeTest": false,
+		"options": {
+			"ignoreCase": true,
+			"ignoreNewline": true,
+			"ignoreWhitespaces": true,
+			"matchSubstring": false,
+			"timeout": 30
+		},
+		"points": 1,
+		"preExecuteCommand": "javac code/Test.java",
+		"sequence": [
+			{
+				"arguments": "",
+				"feedback": "Your output should be 3 times the inputted value",
+				"input": "3",
+				"output": "9",
+				"showFeedback": true
+			},
+			{
+				"arguments": "",
+				"feedback": "If the user enters a non-integer value, you should print \"Please enter an integer\"",
+				"input": "a",
+				"output": "Please enter an integer",
+				"showFeedback": true
+			}
+		],
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": true
+	},
+	"taskId": "code-output-compare-4266318069",
+	"type": "code-output-compare"
+}

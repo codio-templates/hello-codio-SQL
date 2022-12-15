@@ -1,0 +1,21 @@
+{
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideBackToDashboard": false,
+	"hideMenu": false,
+	"hideSectionsToggle": false,
+	"lexikonTopic": "",
+	"order": [
+		"SQL---Sample-Lesson-Page-5eb6",
+		"Building-the-Demo-69da",
+		"Auto-Graded-Assessments-6f73",
+		"Code-Test-95ac"
+	],
+	"protectLayout": false,
+	"scripts": [],
+	"suppressPageNumbering": false,
+	"theme": "light",
+	"title": "Hello Codio with Java",
+	"useMarkAsComplete": true,
+	"useSubmitButtons": true
+}

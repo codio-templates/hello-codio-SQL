@@ -1,0 +1,46 @@
+{
+	"source": {
+		"answers": [
+			{
+				"_id": "448c7d4d-72d0-9b3e-3589-670669d72e51",
+				"answer": "the creator wanted to imply ownership (mine)",
+				"correct": false
+			},
+			{
+				"_id": "d84086ba-a7d2-a56f-5797-d25d50b7c06f",
+				"answer": "the creator named it after his daughter",
+				"correct": true
+			},
+			{
+				"_id": "7a53cab5-f47f-40cb-d68d-86470ef77d54",
+				"answer": "the creator named it after a dolphin at his local aquarium ",
+				"correct": false
+			}
+		],
+		"bloomsObjectiveLevel": "",
+		"guidance": "MySQL is a combination of \"My\", the name of co-founder Michael Widenius's daughter and \"SQL\", the abbreviation for Structured Query Language\n",
+		"incorrectPoints": 0,
+		"instructions": "## Multiple Choice Question\nHow did the mySQL programming language get its name?",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [],
+			"opened": [],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			]
+		},
+		"multipleResponse": false,
+		"name": "Practice MCQ",
+		"points": 1,
+		"showExpectedAnswer": true,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "multiple-choice-1981899322",
+	"type": "multiple-choice"
+}

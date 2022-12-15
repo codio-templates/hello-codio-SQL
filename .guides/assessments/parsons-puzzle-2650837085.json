@@ -1,0 +1,39 @@
+{
+	"source": {
+		"bloomsObjectiveLevel": "",
+		"grader": "1",
+		"guidance": "Because you are updating *all* the records in the table, you do not need the `WHERE` command.\n\nYour query must end with a semi-colon.\n\nThe correct solution is:\n```\nUPDATE trips\nSET trip_total_fare = 0.00;\n```",
+		"initial": "UPDATE trips\nSET trip_total_fare = 0.00;\nSET trip_total_fare = 0.00 #distractor\nWHERE id = 7; #distractor\nWHERE id = 7 #distractor\n",
+		"instructions": "## Reading Question\nRearrange the code blocks below to update **all** the records in the table.\n\nHint: You won't use all of the blocks.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [
+				"code/Demo.java",
+				"python_demo.py"
+			],
+			"opened": [
+				{
+					"content": "mysql;",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Parsons Puzzle"
+				}
+			]
+		},
+		"name": "Demo Question",
+		"oneTimeTest": true,
+		"options": "{\n  \"sortableId\": \"sortable\",\n  \"trashId\": \"sortableTrash\"\n}",
+		"points": 1,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false
+	},
+	"taskId": "parsons-puzzle-2650837085",
+	"type": "parsons-puzzle"
+}

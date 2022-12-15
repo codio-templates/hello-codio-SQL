@@ -1,0 +1,19 @@
+{
+	"chapter": false,
+	"closeTerminalSession": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		}
+	],
+	"id": "6f736a99-38a0-ebfc-37d7-3ab4bbec0775",
+	"layout": "1-panel",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "Auto-Graded Assessments",
+	"type": "page"
+}

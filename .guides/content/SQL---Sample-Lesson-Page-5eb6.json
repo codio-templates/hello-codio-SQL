@@ -1,0 +1,29 @@
+{
+	"chapter": false,
+	"closeTerminalSession": false,
+	"contentType": "markdown",
+	"files": [
+		{
+			"action": "close",
+			"path": "#tabs"
+		},
+		{
+			"action": "open",
+			"panel": 1,
+			"path": "#terminal: clear;"
+		},
+		{
+			"action": "open",
+			"panel": 0,
+			"path": "sample.sql"
+		}
+	],
+	"id": "5eb6898c-82ee-c13d-2329-656550ae65c9",
+	"layout": "3-cell",
+	"learningObjectives": "",
+	"path": [],
+	"reset": [],
+	"teacherOnly": false,
+	"title": "SQL - Sample Lesson Page",
+	"type": "page"
+}

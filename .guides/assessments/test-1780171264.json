@@ -1,0 +1,38 @@
+{
+	"source": {
+		"arePartialPointsAllowed": false,
+		"bloomsObjectiveLevel": "",
+		"command": "node --no-warnings .guides/sqltests/sql-3-1.js",
+		"guidance": "Correct answers:\n`USE EPDriver;`\n\nSingle line statement:\n\n`UPDATE trips SET trip_total_fare = 25.00 WHERE trip_datetime_end IS NULL;`\n\nMulti-line statement:\n```\nmysql\u003e UPDATE trips \n    -\u003e SET trip_total_fare = 25.00 \n    -\u003e WHERE trip_datetime_end IS NULL;\n```",
+		"instructions": "Using the `EPDriver` database, update the `trip_total_fare` column of the `trips` table with a value of 25.00 where the `trip_datetime_end` is `NULL`\n\nPress the Check It! button when you are done.",
+		"learningObjectives": "",
+		"metadata": {
+			"files": [
+				"code/Test.java"
+			],
+			"opened": [
+				{
+					"content": "mysql",
+					"panelNumber": 0,
+					"type": "terminal"
+				}
+			],
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Advanced Code Test"
+				}
+			]
+		},
+		"name": "Code Test",
+		"oneTimeTest": false,
+		"points": 1,
+		"showGuidanceAfterResponseOption": {
+			"type": "Always"
+		},
+		"showName": false,
+		"timeoutSeconds": 40
+	},
+	"taskId": "test-1780171264",
+	"type": "test"
+}
