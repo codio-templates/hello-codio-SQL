@@ -15,7 +15,7 @@
 	"scripts": [],
 	"suppressPageNumbering": false,
 	"theme": "light",
-	"title": "Hello Codio with Java",
+	"title": "Hello Codio with MySQL",
 	"useMarkAsComplete": true,
 	"useSubmitButtons": true
 }
