@@ -9,13 +9,13 @@ Instruction through Codio is built around the guides feature. This is a brief de
 You’ll need to be in Edit Mode. From the top tool bar menu, select  **Tools->Guide->Edit**.
 
 
-![.guides/img/editGuide](.guides/img/editGuide.png)
+![Selecting Tools->Guide->Edit from the file tree](.guides/img/editGuide.png)
 |||
 
 ### Page Layout
 Each page in the guide can have its own layout. You can select how many panels you want, and what information goes in each panel. The most common layout is a two panels without the tree. The guide is in one panel and the code editor is in the other. Click the gear in the top-right corner of Codio. You can select the layout from here. The default layout is copy the previous page, and Codio does not close any open tabs.
 
-![Layout](.guides/img/layout.png)
+![Select 2 panels under the label "Layout"](.guides/img/layout.png)
 
 It is a good idea to explicitly state the layout you want. Closing tabs from previous pages also keeps the UI free from unnecessary clutter.
 
@@ -42,7 +42,7 @@ Guides are authored with [markdown](https://docs.codio.com/instructors/authoring
 ### Images
 You will notice a folder called `.guides` in the directory tree. All of the information in this folder is hidden from students. There is a subfolder called `img` where you can upload any images you want to appear in the guide. Right-click on the `img` folder and select `Upload...`.
 
-![.guides/img/upload](.guides/img/upload.png)
+![Selecting upload after ctrl-clicking or Right-clicking on the img folder.](.guides/img/upload.png)
 
 Add the image to the guide using markdown syntax or by dragging the image file from the directory tree onto the guide page where you want to insert the image.
 

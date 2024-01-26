@@ -54,6 +54,6 @@ There are two ways you can write code tests for this activity.
 
 3. You can also put the query in the command line on the execute tab as in the example below.
 
-![.guides/img/sqlcommand](.guides/img/sqlcommand.png)
+![In the standard code test execute tab you enter a command under the label "Command". That command can contain a query for example: mysql EPDriver -e 'SELECT * FROM trips;' --table](.guides/img/sqlcommand.png)
 
 {Check It!|assessment}(code-output-compare-2921911000)
