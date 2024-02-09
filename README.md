@@ -1,12 +1,7 @@
 # Hello Codio in SQL
 This project shows you a sample lesson page in Codio and then explains how it was built. It then demonstrates Codio's auto-graded assessment capabilities.
 
-Feel free to edit and try things out – if you need a new copy of this project use one of the links below then click **Use Pack** and click **Create** to add it to your projects.
-
-For Codio.com users, go to this [Starter Pack](https://codio.com/home/starter-packs/20be909f-a90c-4b79-83dc-e43d656e30dc).
-For Codio.co.uk users, go to this [Starter Pack](https://codio.co.uk/home/starter-packs/1a951f37-fcdf-48f5-819d-007e9080e198).
-
-
+Feel free to edit and try things out. If you need a new version of this Starter Pack you can navigate to the Starter Pack section of your dashboard and search for "Hello Codio with MySQL". More information about Starter Packs [here](https://docs.codio.com/common/develop/packs/packs.html#).
 ## Start the Guide to see the project
 If you are seeing this, you are currently in edit mode. To start Guides from this page, go to the tool bar at the top:
 ![The Tools menu is in the Codio Menu bar. Select Tools, then Guide and then Play](.guides/img/playGuide.png)
