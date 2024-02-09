@@ -21,7 +21,7 @@ You can write whatever you like (sentences, code examples, etc.) for fill in the
 ### Parson's Problems
 For basic Parson's problems, type the correct code (in the correct order) in the text field above. If you stop here, the lines of code will be scrambled, and the student has to rearrange them. You can add incorrect code blocks (called distractors). Add these lines of code in the text field below. If you are using distractors, be sure to check the box that allows students to drag the correct code blocks into a new box. By default, indentation will be graded. If you do not want students to be penalized for indentation, be sure to check the box to disable indentation.
 
-![The interface for setting up a Parson's problem assessment](.guides/img/new_parsons_ui.png)
+![The interface for setting up a Parson's problem assessment contains an area for entering the code in the correct order and an area to add distractor code. There are also check boxes to say whether you want the student to drag the code and whether you require indentation.](.guides/img/new_parsons_ui.png)
 
 
 {Check It!|assessment}(parsons-puzzle-21366716)

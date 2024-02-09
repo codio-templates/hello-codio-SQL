@@ -9,7 +9,7 @@ Instruction through Codio is built around the guides feature. This is a brief de
 You’ll need to be in Edit Mode. From the top tool bar menu, select  **Tools->Guide->Edit**.
 
 
-![Selecting Tools->Guide->Edit from the file tree](.guides/img/editGuide.png)
+![Select Tools->Guide->Edit from the Codio menu](.guides/img/editGuide.png)
 |||
 
 ### Page Layout
